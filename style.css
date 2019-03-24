@@ -30,3 +30,58 @@ input[type="text"] {
     padding: 7px;
 }
 
+nav#header {
+    text-align: right;
+    padding: 20px;
+} 
+
+nav#header ul li {
+    display: inline;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #eee;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav {
+    padding: 20px;
+}
+
+footer nav ul li a:link,
+footer nav ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;      
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;    
+}
+
+footer nav ul {
+    float: left;
+}
+
+footer nav ul.right-links {
+    float:right;
+    text-align: right;
+}
